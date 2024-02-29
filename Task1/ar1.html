@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr=[1,2,3,5,4]
+        //For loop
+        // for(let i=0;i<arr.length;i++)
+        // {
+        //     console.log(arr[i]+1);
+        // }
+
+        //for each
+        // arr.forEach(element => {
+        //     console.log(element*element);
+        // });
+
+        //Array.form
+            // let str="Himanshu"
+            // let arr2=Array.from(str);
+            //console.log(arr2,typeof(arr2));
+        //     arr2.forEach(element => {
+        //     console.log(element);
+        // });
+
+        //for of
+        // for (const i of arr) {
+        //     console.log(i)
+        // }
+
+         //for in
+        // for (const item in arr) {
+        //     console.log(item)
+        // }
+
+        //map
+        // let a=arr.map((element,index,array)=>{
+        //     console.log(element,index,array)
+        //     return element+1
+        // })
+        // console.log(a)
+
+        //filter
+        // let arr1=[23,32,1,32,12,3,8,4,98,5]
+        // let arr2=arr1.filter((a)=>{
+        //     return a<10;
+        // })
+        // console.log(arr2)
+
+        let newarr=arr.reduce((a,b)=>{
+            return a+b;
+        })
+        console.log(newarr)
+    </script>
+</body>
+</html>
